@@ -179,3 +179,491 @@
   [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
   [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
   [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.5ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255)) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'exPjobxqACyqcvUmIz9x') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_reset_token" = 'exPjobxqACyqcvUmIz9x' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'V3DSWGj7bK7JbZJtpAPr') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_reset_token" = 'V3DSWGj7bK7JbZJtpAPr' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.5ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.1ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "force_change_password" = 't', "password_hash" = 'fe3eab4837ab51203a862c61329be59a567ab578' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'zr5kEwTTYDlqGmH7UR0U') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_reset_token" = 'zr5kEwTTYDlqGmH7UR0U' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "people" ("email", "force_change_password", "password_hash", "password_reset_token", "password_salt") VALUES ('new@email.com', 'f', '9bf215767318a2b3628cec557f66c86a44a14fd6', NULL, 'ObTtEHQn')
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "force_change_password" = 't', "password_hash" = '6464caf5d0165e22c149d2595580495fcc87aeaf' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'tTZik8wgIxMVoF8SqlkZ') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_reset_token" = 'tTZik8wgIxMVoF8SqlkZ' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "people" ("email", "force_change_password", "password_hash", "password_reset_token", "password_salt") VALUES ('new@email.com', 'f', '06f1faf44f1edc0b945c97b2f2faf725442c6152', NULL, 'Jn8Tub0W')
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "people" SET "force_change_password" = 't', "password_hash" = '359f401142a609096016bd6a9f377e67acf392ae' WHERE ("people"."id" = 23540769)
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'g7ExmXlIZ3fMX0DdOeo1') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "people" SET "password_reset_token" = 'g7ExmXlIZ3fMX0DdOeo1' WHERE ("people"."id" = 23540769)
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "people" ("email", "force_change_password", "password_hash", "password_reset_token", "password_salt") VALUES ('new@email.com', 'f', '61963209f5f1d277f6967c4f05f89875f5ed45a5', NULL, 'OF1K7MBH')
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "people" SET "force_change_password" = 't', "password_hash" = '3a6601fe0ec24f3787a895868f8d2648421ae676' WHERE ("people"."id" = 23540769)
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'ORBau38TuzZDRxXil32j') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "people" SET "password_reset_token" = 'ORBau38TuzZDRxXil32j' WHERE ("people"."id" = 23540769)
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "people" ("email", "force_change_password", "password_hash", "password_reset_token", "password_salt") VALUES ('new@email.com', 'f', '09942b29b2eba6d20e68bb9b758e68a9d85b3938', NULL, 'yelPPntn')
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "force_change_password" = 't', "password_hash" = 'b1ddda86bb1a02478577ccc976ae480ca4eb4efb' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'KCsUlVKPq6vY9YDzvMr2') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "people" SET "password_reset_token" = 'KCsUlVKPq6vY9YDzvMr2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[36mSQL (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (2.1ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.5ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "people" ("email", "force_change_password", "password_hash", "password_reset_token", "password_salt") VALUES ('new@email.com', 'f', '23427f6358c41b2b28718ad0662a91211bc3dc19', NULL, '8Uo4EfX5')
+  [1m[36mPerson Load (0.3ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "people" SET "force_change_password" = 't', "password_hash" = '00485e6dd67f6edd9acfdd8a6ce59a19e0705df2' WHERE ("people"."id" = 23540769)
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.4ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'ec2UJpLpi2kuNZRJWDBq') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "people" SET "password_reset_token" = 'ec2UJpLpi2kuNZRJWDBq' WHERE ("people"."id" = 23540769)
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.7ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.3ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "people" ("email", "force_change_password", "password_hash", "password_reset_token", "password_salt") VALUES ('new@email.com', 'f', '34c6ae0dea494a63925acc87e044bac914402200', NULL, 'gCjBnEq4')
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "people" SET "force_change_password" = 't', "password_hash" = '4ea85fbd1f726dfa8c1ffaab06484d9d7f17a269' WHERE ("people"."id" = 23540769)
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'NdyYCpHKyhbD6wVHxTQP') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "people" SET "password_reset_token" = 'NdyYCpHKyhbD6wVHxTQP' WHERE ("people"."id" = 23540769)
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[36mSQL (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.6ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+WARNING: Can't mass-assign protected attributes: password_hash
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "people" ("email", "force_change_password", "password_hash", "password_reset_token", "password_salt") VALUES ('new@email.com', 'f', 'bd84e1aacc6753f831a9afa41db063cc1be72732', NULL, '3NmTWUp7')[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "force_change_password" = 't', "password_hash" = '1ad33642b0fcf3c5acb6129bdf67eef900e8168d' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'jBrfGXocH9agu54vvq77') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "people" SET "password_reset_token" = 'jBrfGXocH9agu54vvq77' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+  [1m[36mSQL (1.6ms)[0m  [1mDROP TABLE "people"[0m
+  [1m[35mSQL (1.2ms)[0m  CREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "password_hash" varchar(255), "password_salt" varchar(255), "password_reset_token" varchar(255), "force_change_password" boolean DEFAULT 'f') 
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "password_hash" = '6a2aa69055144d61fecaded7d4cbe6f0eb0473b2' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+WARNING: Can't mass-assign protected attributes: password_hash
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+WARNING: Can't mass-assign protected attributes: password_reset_token
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+WARNING: Can't mass-assign protected attributes: password_salt
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "people" ("email", "force_change_password", "password_hash", "password_reset_token", "password_salt") VALUES ('new@email.com', 'f', '46dd1f1b9c5ee2a24f13ab5818e40df210a26479', NULL, 'yid5aS7I')[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'fake') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "people" SET "force_change_password" = 't', "password_hash" = 'e9870e43912b20dae8b12dc1e0249923f77c147e' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1
+  [1m[36mPerson Load (0.2ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."password_reset_token" = 'RirvqeQhJZX4V9ZWaHwp') LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "people" SET "password_reset_token" = 'RirvqeQhJZX4V9ZWaHwp' WHERE ("people"."id" = 23540769)[0m
+  [1m[35mPerson Load (0.2ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
+  [1m[36mPerson Load (0.1ms)[0m  [1mSELECT "people".* FROM "people" WHERE ("people"."email" = 'hal@test.com') LIMIT 1[0m
+  [1m[35mPerson Load (0.1ms)[0m  SELECT "people".* FROM "people" WHERE ("people"."id" = 23540769) LIMIT 1
