@@ -1,0 +1,7 @@
+= has_password
+
+== Author
+
+* has_password was created by Jordan McKible http://jordan.mckible.com
+
+* Available on GitHub at http://github.com/jmckible/has_password
