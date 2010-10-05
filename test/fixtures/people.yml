@@ -1,0 +1,4 @@
+hal:
+  email: hal@test.com
+  password_hash: <%= Person.encrypt 'password', 'salt' %>
+  password_salt: salt
